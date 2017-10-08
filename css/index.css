@@ -24,3 +24,25 @@ footer {
   height: 142px;
   opacity: 0.8;
 }
+
+footer a {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.42;
+  opacity: 0.9;
+  text-align: left;
+}
+
+.email, .linkedin {
+  margin-top: 90px;
+}
+
+.email {
+  float: left;
+}
+
+.linkedin {
+  float: right;
+}
+
