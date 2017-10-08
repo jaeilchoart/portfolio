@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.content-body {
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.inside-content {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer {
+  height: 394px;
+  width: 100%;
+}
+
+.footer-content {
+  border-top: 2px solid #d8d8d8;
+  height: 142px;
+  opacity: 0.8;
+}
