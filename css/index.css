@@ -4,14 +4,8 @@ body {
   padding: 0;
 }
 
-.content-body {
-  padding-left: 135px;
-  padding-right: 135px;
-}
-
 .inside-element {
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
 }
 
 footer {
@@ -23,6 +17,10 @@ footer {
   border-top: 2px solid #d8d8d8;
   height: 142px;
   opacity: 0.8;
+}
+
+.footer-whitespace {
+  height: 252px;
 }
 
 footer a {
