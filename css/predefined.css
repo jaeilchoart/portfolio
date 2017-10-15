@@ -71,10 +71,12 @@ footer {
 
 .navigation-text {
   color: #000000;
+  float: right;
   font-size: 16px;
   font-weight: 500;
   opacity: 0.85;
   text-align: left;
+  width: 70px;
 }
 
 .paragraph {

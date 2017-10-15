@@ -53,21 +53,33 @@ footer a {
   align-items: center;
   float: left;
   display: flex;
+  height: 100%;
   width: 50%;
 }
 
 .rightside-nav {
+  align-items: center;
   float: right;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
   width: 50%;
 }
 
 .logo {
   height: 70px;
-  margin-left: 9.5px;
   width: 70px;
+}
+
+.site-title-wrapper {
+  margin-left: 9.5px;
 }
 
 .main-title-container {
   height: 574px;
   width: 100%;
+}
+
+.nav-link {
+  text-decoration: none;
 }
