@@ -44,7 +44,7 @@ footer a {
   float: right;
 }
 
-.navigation-header {
+.navigation-container {
   height: 138px;
   width: 100%;
 }
@@ -67,3 +67,7 @@ footer a {
   width: 70px;
 }
 
+.main-title-container {
+  height: 574px;
+  width: 100%;
+}
