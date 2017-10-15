@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 
+/*removing default bootstrap padding*/
 .inside-element {
   padding: 0;
 }
