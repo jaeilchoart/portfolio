@@ -1,0 +1,96 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.inside-element {
+  padding: 0;
+}
+
+footer {
+  height: 394px;
+  width: 100%;
+}
+
+.heading-card {
+  color: rgba(255, 255, 255, 1);
+  font-size: 42px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.paragraph-card {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  text-align: left;
+}
+
+.heading-1 {
+  color: #000000;
+  font-size: 64px;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.heading-2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.heading-3 {
+  color: #000000;
+  font-size: 25px;
+  line-height: 1.52;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.subheading {
+  color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.sub-subheading {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.navigation {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.paragraph {
+  color: #000000;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.list {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  opacity: 0.85;
+  text-align: left;
+}
