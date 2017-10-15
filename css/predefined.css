@@ -110,3 +110,10 @@ footer {
   width: 570px;
 }
 
+.site-title {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+  opacity: 0.85;
+  text-align: left;
+}
