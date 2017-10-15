@@ -17,6 +17,22 @@ footer a {
   text-align: left;
 }
 
+.copyright-footer {
+  bottom: 0;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  left: 0;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  opacity: 0.9;
+  padding-bottom: 12px;
+  position: relative;
+  right: 0;
+  text-align: left;
+  width: 169px;
+}
+
+
 .email, .linkedin {
   margin-top: 90px;
 }
