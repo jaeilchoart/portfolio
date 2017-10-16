@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jaeil Cho Art</title>
 
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="./css/normalize.css">
   
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -22,18 +22,18 @@
     <!-- navigation bar (fixed) -->
     <div class="navigation-header inside-element">
       <div class="navigation-container">
-        <div class="leftside-nav">
+        <div class="col-sm-6 leftside-nav inside-element">
           <div class="logo-wrapper">
             <img class="logo" src="assets/my-logo.png" srcset="assets/my-logo.png 1x, assets/my-logo@2x.png 2x, assets/my-logo@3x.png 3x" alt="Logo">
           </div>
           <div class="site-title-wrapper"><span class="site-title">Jaeil Cho</span></div>
         </div>
 
-        <div class="rightside-nav">
-          <a href="#" class="nav-link"><span class="navigation-text">UX/UI</span></a>
-          <a href="#" class="nav-link"><span class="navigation-text">Visual</span></a>
-          <a href="#" class="nav-link"><span class="navigation-text">Comics</span></a>
-          <a href="#" class="nav-link"><span class="navigation-text">About</span></a>
+        <div class="col-sm-6 rightside-nav">
+          <a href="#" class="nav-link"><span class="col-sm-1 navigation-text">UX/UI</span></a>
+          <a href="#" class="nav-link"><span class="col-sm-1 navigation-text">Visual</span></a>
+          <a href="#" class="nav-link"><span class="col-sm-1 navigation-text">Comics</span></a>
+          <a href="#" class="nav-link"><span class="col-sm-1 navigation-text">About</span></a>
         </div>
       </div>
       <div class="main-title-container">
@@ -41,16 +41,24 @@
       </div>
     </div>
 
-    <!-- intro -->
-
     <!-- projects -->
 
     <!-- footer -->
     <footer class="inside-element">
       <div class="footer-whitespace"></div>
       <div class="footer-content">
-        <span class="email"><a href="jaeilchorart@gmail.com">jaeilchoart@gmail.com</a></span>
-        <span class="linkedin"><a href="https://www.linkedin.com/in/jaeil-cho/">Linkedin</a></span>
+
+
+        <span class="email">
+          <a href="jaeilchorart@gmail.com">jaeilchoart@gmail.com</a>
+        </span>
+        <span class="linkedin">
+            <a href="https://www.linkedin.com/in/jaeil-cho/">Linkedin</a>
+        </span>
+      </div>
+        <div class="col-sm-offset-5">
+          <span class="copyright-footer"> &copy; Jaeil Cho 2017</span>         
+        </div>
       </div>
     </footer>
     
