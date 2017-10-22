@@ -323,7 +323,6 @@ footer a:hover {
 }
 
 .copyright-footer {
-  /*bottom: 0;*/
   color: rgba(0, 0, 0, 0.87);
   font-size: 15px;
   left: 0;
@@ -338,13 +337,12 @@ footer a:hover {
 /*NAVIGATION*/
 .navigation-header {
   position: fixed;
+  width: inherit;
   z-index: 1;
-  /*width: 1170px;*/
 }
 .navigation-container {
   height: 138px;
   width: 100%;
-  /*width: 1170px;*/
 }
 
 .leftside-nav {
@@ -352,8 +350,6 @@ footer a:hover {
   float: left;
   display: flex;
   height: 100%;
-  /*width: 50%;*/
-  /*width: 585px;*/
 }
 
 .rightside-nav {
@@ -362,8 +358,6 @@ footer a:hover {
   display: flex;
   justify-content: flex-end;
   height: 100%;
-  /*width: 50%;*/
-  /*width: 585px;*/
 }
 
 .logo {
@@ -383,24 +377,32 @@ footer a:hover {
 }
 
 .nav-link {
-  text-decoration: none;
-/*  border-bottom: 2px solid #2a1a87;*/
   color: #000000;
   opacity: .45;
   font-size: 16px;
   font-weight: 500;
+  text-align: left;
+  text-decoration: none;
 }
+
 .nav-link:hover {
   text-decoration: none;
   color: #000000;
 }
 
-.active-page { /*for js*/
-  border-bottom: solid 2px #2a1a87;
+.nav-link:hover > a {
+  text-decoration: none;
 }
 
-.navigation-text {
-  text-align: left;
-  width: 80px;
+.nav-link > a {
+  color: inherit;
+}
+
+.active-page {
+  opacity: 1;
+}
+
+.active-page > a { /*for js*/
+  border-bottom: solid 2px #2a1a87;
 }
 
