@@ -1,9 +1,23 @@
-.visual-img-container {
-	display: flex;
-	flex-flow: flex-wrap;
-	justify-content: space-between;
-}
-
-.visual-img {
+.visual-img-container { /*holding all 4 images*/
 
 }
+
+.visual-img { /*image*/
+	
+}
+
+.img-container { /*div container holding the image */
+	/*width: 50%;*/
+}
+/*.popup {
+	position: absolute;
+	color: white;
+}
+
+.row-1 div:first-child {
+	margin-right: 30px;
+}
+
+.row-2 {
+	margin-top: 40px;
+}*/
