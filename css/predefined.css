@@ -9,6 +9,124 @@ body {
   padding: 0;
 }
 
+.heading-card {
+  color: rgba(255, 255, 255, 1);
+  font-size: 42px;
+  line-height: 40px;
+  text-align: left;
+}
+
+.paragraph-card {
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.9px;
+  text-align: left;
+}
+
+.heading-1 {
+  color: #000000;
+  font-size: 64px;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.heading-2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.heading-3 {
+  color: #000000;
+  font-size: 25px;
+  line-height: 1.52;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.subheading {
+  color: #000000;
+  font-size: 19px;
+  font-weight: bold;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.sub-subheading {
+  color: #000000;
+  font-size: 17px;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.navigation-text {
+  color: #000000;
+  float: right;
+  font-size: 16px;
+  font-weight: 500;
+  opacity: 0.85;
+  text-align: left;
+  width: 70px;
+}
+
+.paragraph {
+  color: #000000;
+  font-size: 20px;
+  line-height: 34px;
+  letter-spacing: 1px;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.list {
+  color: #000000;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  opacity: 0.85;
+  text-align: left;
+}
+
+.box-1 {
+  height: 684px;
+  width: 570px;
+}
+
+.box-2 {
+  height: 570px;
+  width: 570px;
+}
+
+.box-3 {
+  height: 440px;
+  width: 570px;
+}
+
+.site-title {
+  color: #000000;
+  font-size: 26px;
+  font-weight: bold;
+  opacity: 0.85;
+  text-align: left;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*removing default bootstrap padding*/
+.inside-element {
+  padding: 0;
+}
+
 footer {
   height: 394px;
   width: 100%;
@@ -100,17 +218,17 @@ footer {
 
 .box-1 {
   height: 684px;
-  width: 570px;
+  width: 100%;
 }
 
 .box-2 {
   height: 570px;
-  width: 570px;
+  width: 100%;
 }
 
 .box-3 {
   height: 440px;
-  width: 570px;
+  width: 100%;
 }
 
 .site-title {
@@ -120,3 +238,169 @@ footer {
   opacity: 0.85;
   text-align: left;
 }
+.spacer-1 {
+  height: 16px;
+}
+
+.spacer-2 {
+  height: 24px;
+}
+
+.spacer-3 {
+  height: 32px;
+}
+
+.spacer-4 {
+  height: 40px;
+}
+
+.spacer-5 {
+  height: 48px;
+}
+
+.spacer-6 {
+  height: 56px;
+}
+
+.spacer-7 {
+  height: 80px;
+}
+
+
+
+/* FOOTER */
+footer {
+  display: inline-block;
+  height: 394px;
+  width: 100%;
+}
+
+.footer-content {
+
+  border-top: 2px solid #d8d8d8;
+  height: 142px;
+  opacity: 0.8;
+  /*background-color: red;*/
+}
+
+.footer-whitespace {
+
+  height: 252px;
+  /*background-color: orange;*/
+}
+
+footer a {
+  /*color: rgba(0, 0, 0, 0.87);*/
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.78;
+  letter-spacing: 0.9px;
+  opacity: 0.85;
+  text-align: left;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.email, .linkedin {
+  margin-top: 90px;
+  border-bottom: solid;
+  border-bottom-color: #2a1a87;
+  border-bottom-width: 1px;
+}
+
+.email {
+  float: left;
+}
+
+
+.linkedin {
+  float: right;
+}
+
+.copyright-footer {
+  /*bottom: 0;*/
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  left: 0;
+  letter-spacing: 0.7px;
+  line-height: 2.13;
+  opacity: 0.5;
+  padding-bottom: 12px;
+  width: 169px;
+}
+
+
+/*NAVIGATION*/
+.navigation-header {
+  position: fixed;
+  z-index: 1;
+  /*width: 1170px;*/
+}
+.navigation-container {
+  height: 138px;
+  width: 100%;
+  /*width: 1170px;*/
+}
+
+.leftside-nav {
+  align-items: center;
+  float: left;
+  display: flex;
+  height: 100%;
+  /*width: 50%;*/
+  /*width: 585px;*/
+}
+
+.rightside-nav {
+  align-items: center;
+  float: right;
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  /*width: 50%;*/
+  /*width: 585px;*/
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+
+.site-title-wrapper {
+  margin-left: 9.5px;
+}
+
+.main-title-container {
+  height: 574px;
+  width: 100%;
+  position: relative;
+  margin-top: 300px;
+}
+
+.nav-link {
+  text-decoration: none;
+/*  border-bottom: 2px solid #2a1a87;*/
+  color: #000000;
+  opacity: .45;
+  font-size: 16px;
+  font-weight: 500;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+.active-page { /*for js*/
+  border-bottom: solid 2px #2a1a87;
+}
+
+.navigation-text {
+  text-align: left;
+  width: 80px;
+}
+
