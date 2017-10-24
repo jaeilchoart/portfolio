@@ -3,21 +3,33 @@
 }
 
 .visual-img { /*image*/
-	
+	width: 100%;
+	heigh: 100%;
 }
 
-.img-container { /*div container holding the image */
+.left-column .img-container { 
 	/*width: 50%;*/
+	margin-right: 15px;
 }
-/*.popup {
+.left-column div:first-child {
+	margin-bottom: 40px;
+}
+
+.right-column .img-container { 
+	margin-left: 15px;
+}
+.right-column div:first-child {
+	margin-bottom: 40px;
+}
+.popup {
 	position: absolute;
 	color: white;
 }
 
-.row-1 div:first-child {
-	margin-right: 30px;
+/*.left-column {
+	margin-right: 15px;
 }
 
-.row-2 {
-	margin-top: 40px;
+.right-column {
+	margin-left: 15px;
 }*/
