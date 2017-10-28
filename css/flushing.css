@@ -1,0 +1,32 @@
+.vertical-center {
+  height: 135px;
+  line-height: 135px;
+}
+
+.tools {
+  margin-bottom: 40px;
+}
+
+.tools > img,
+.tools > span {
+  vertical-align: middle;
+}
+
+.freelance-img {
+  height: 22.2px;
+  vertical-align: middle;
+  width: 32px;
+}
+
+.flushing-empty-space {
+  height: 260px;
+}
+
+.flushing-app-mock-container {
+  text-align: center;
+}
+
+.description-box {
+  height: 64px;
+  line-height: 64px;
+}
