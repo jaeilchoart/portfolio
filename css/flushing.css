@@ -30,3 +30,16 @@
   height: 64px;
   line-height: 64px;
 }
+
+.problem-box {
+  height: 152px;
+}
+
+.problem-box-top {
+  height: 88px;
+}
+
+.problem-description {
+  height: 224px;
+  margin: 0 auto;
+}
