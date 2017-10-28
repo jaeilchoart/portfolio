@@ -93,21 +93,6 @@ body {
   text-align: left;
 }
 
-.box-1 {
-  height: 684px;
-  width: 570px;
-}
-
-.box-2 {
-  height: 570px;
-  width: 570px;
-}
-
-.box-3 {
-  height: 440px;
-  width: 570px;
-}
-
 .site-title {
   color: #000000;
   font-size: 26px;
@@ -336,6 +321,7 @@ footer a:hover {
 
 /*NAVIGATION*/
 .navigation-header {
+  height: 130px;
   position: fixed;
   width: inherit;
   z-index: 1;
