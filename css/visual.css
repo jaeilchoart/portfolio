@@ -21,15 +21,18 @@
 .right-column div:first-child {
 	margin-bottom: 40px;
 }
-.popup {
+
+.popup { 
 	position: absolute;
 	color: white;
+	padding-left: 70px;
+	padding-top: 58px;
+	padding-right: 25px;
 }
 
-/*.left-column {
-	margin-right: 15px;
+.popup div:first-child {
+	color: red;
 }
-
-.right-column {
-	margin-left: 15px;
-}*/
+.popup div:nth-child(2) {
+	color: blue;
+}
