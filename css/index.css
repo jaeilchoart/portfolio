@@ -1,4 +1,28 @@
-.footer-content {
+.main-title-empty-space {
+  height: 195px;
+  width: 100%;
+}
+
+.left-column {
+  padding-right: 15px;
+}
+
+.right-column {
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*.footer-content {
   border-top: 2px solid #d8d8d8;
   height: 142px;
   opacity: 0.8;
@@ -78,4 +102,4 @@ footer a {
 
 .nav-link {
   text-decoration: none;
-}
+}*/
