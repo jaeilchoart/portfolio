@@ -1,4 +1,44 @@
-.footer-content {
+.rightside-nav span:first-child a {
+  opacity: 1;
+  font-weight: 500;
+  border-bottom: solid 2px #2a1a87;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.footer-content {
   border-top: 2px solid #d8d8d8;
   height: 142px;
   opacity: 0.8;
@@ -78,4 +118,4 @@ footer a {
 
 .nav-link {
   text-decoration: none;
-}
+}*/
