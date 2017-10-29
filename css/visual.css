@@ -39,7 +39,6 @@
 	padding-right: 25px;
 	padding-bottom: 70px;
 	background-color: #2a1a87;
-
 	opacity: 0.9;
 }
 
@@ -52,4 +51,8 @@
 
 .main-title-container {
 	height: 709px;
+}
+
+.img-container span {
+	display: none;
 }
