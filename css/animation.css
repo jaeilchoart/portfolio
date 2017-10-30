@@ -1,0 +1,39 @@
+.main-title-whitespace {
+	/*height: 269px;*/
+	height: 331px;
+	width: 100%;
+}
+.container-bottom {
+	height:  130px;  /*this is just a guestimate for now*/
+	width: 100%;
+}
+
+/*.left-column > div:nth-child(2) { 
+	margin-top: 39px;
+}*/
+
+.animation-img {
+	padding: 0;
+	margin-right: 15px;
+	margin-bottom: 39px;
+}
+
+.left-column {
+	margin-right: 40px;
+}
+
+.middle-column {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.right-column {
+	margin-left: 40px;
+}
+
+.categories {
+	margin-bottom: 39px;
+}
+
+
+
