@@ -125,6 +125,16 @@
 }
 
 
+.project-foot-description {
+	height: 258px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
+}
 
-
+.next-footer {
+	/*align-self: flex-start;*/
+	/*float: left;*/
+	vertical-align: top;
+}
