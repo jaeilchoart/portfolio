@@ -42,4 +42,44 @@
 .problem-description {
   height: 224px;
   margin: 0 auto;
+  width: 62.5%;
+  width: 900px;
 }
+
+.research-box-top {
+  height: 88px;
+}
+
+.research-box-bottom {
+  height: 24px;
+}
+
+.new-block {
+  clear: both;
+}
+
+.left {
+  padding-right: 15px;
+}
+
+.right {
+  padding-left: 15px;
+}
+
+.memory-description, 
+.place-description {
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  line-height: 1.78;
+  opacity: 0.85;
+  text-align: left;
+  width: 74.4%;
+}
+
+.scenario-description {
+  text-align: left;
+  height: 64px;
+  line-height: 64px;
+}
+
