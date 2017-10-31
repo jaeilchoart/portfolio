@@ -39,14 +39,92 @@
 
 
 
-/*LOWER ROW WITH ANIMATION GIFS*/
-.animation-left-column {
-	/*margin-right: 30px;*/
-	/*margin-right: 15px;*/
-}
 
+/*LOWER ROW WITH ANIMATION GIFS*/
 .img-box {
 	height: 370px;
 	width: 370px;
 	overflow: hidden;
 }
+
+
+/*LEFT GIF COLUMN*/
+.img-box:first-child {
+	/*margin-right: 30px;*/
+	/*margin-right: 15px;*/
+	background-image: url(./../assets/animation/tigerman-flame.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.animation-left-column div:nth-child(6) {
+	background-image: url(./../assets/animation/onboarding-hand-swipe.gif);
+	/*background-size: 500px;*/
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.animation-left-column div:nth-child(11) {
+	background-image: url(./../assets/animation/loading1.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/*MIDDLE GIF COLUMN*/
+.animation-middle-column div:first-child {
+	background-image: url(./../assets/animation/tigerman-music.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.animation-middle-column div:nth-child(6) {
+	background-image: url(./../assets/animation/spaceman-floating-empty.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.animation-middle-column div:nth-child(11) {
+	background-image: url(./../assets/animation/loading2.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+/*RIGHT GIF COLUMN*/
+.animation-right-column div:first-child {
+	background-image: url(./../assets/animation/tigerman-yea.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.animation-right-column div:nth-child(6) {
+	background-image: url(./../assets/animation/spaceman-bill-pay.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.animation-right-column div:nth-child(11) {
+	background-image: url(./../assets/animation/confirmation.gif);
+	background-size: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+
+.project-footer-divider {
+	height: 252px;
+	width: 100%;
+}
+
+
+
+
+
