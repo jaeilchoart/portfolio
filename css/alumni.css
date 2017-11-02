@@ -1,0 +1,48 @@
+.header-margin {
+	height: 332px;
+}
+
+.subheading-box {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.platform-mobile-img {
+	margin-bottom: 37px;
+}
+
+.header-2-box {
+	margin-top: 88px;
+	margin-bottom: 24px;
+}
+
+.left-column img:first-child {
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+.left-column img:nth-child(2) {
+	margin-right: 15px;
+	margin-top: 20px;
+}
+.right-column img:first-child {
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+.right-column img:nth-child(2) {
+	margin-left: 15px;
+	margin-top: 20px;
+}
+.description-box {
+	text-align: center;
+	font-style: italic;
+}
+.description {
+	margin-top: 23px;
+	margin-bottom: 23px;
+}
+
+.poster-box {
+	text-align: center;
+}
+
+
