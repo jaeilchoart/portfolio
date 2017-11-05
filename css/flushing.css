@@ -1,0 +1,118 @@
+.vertical-center {
+  height: 135px;
+  line-height: 135px;
+}
+
+.tools {
+  margin-bottom: 40px;
+}
+
+.tools > img,
+.tools > span {
+  vertical-align: middle;
+}
+
+.freelance-img {
+  height: 22.2px;
+  vertical-align: middle;
+  width: 32px;
+}
+
+.flushing-empty-space {
+  height: 260px;
+}
+
+.flushing-app-mock-container {
+  text-align: center;
+}
+
+.description-box {
+  height: 64px;
+  line-height: 64px;
+}
+
+.problem-box {
+  height: 152px;
+}
+
+.problem-box-top {
+  height: 88px;
+}
+
+.problem-description {
+  height: 224px;
+  margin: 0 auto;
+  width: 62.5%;
+  width: 900px;
+}
+
+.research-box-top {
+  height: 88px;
+}
+
+.research-box-bottom {
+  height: 24px;
+}
+
+.new-block {
+  clear: both;
+}
+
+.left {
+  padding-right: 15px;
+}
+
+.right {
+  padding-left: 15px;
+}
+
+.memory-description, 
+.place-description {
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0.9px;
+  line-height: 1.78;
+  opacity: 0.85;
+  text-align: left;
+  width: 74.4%;
+}
+
+.scenario-description {
+  text-align: left;
+  height: 64px;
+  line-height: 64px;
+}
+
+.quote {
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.56;
+  margin: auto;
+  opacity: 0.9;
+  text-align: left;
+  width: 80%;
+}
+
+.future-step-description {
+  height: 64px;
+  line-height: 64px;
+}
+
+.future-step-long-description {
+  margin: 0 auto;
+  width: 83.3333%;
+}
+
+.bottom-spacer {
+  height: 253px;
+}
+
+.tasks-findings-right .quote {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
