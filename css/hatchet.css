@@ -1,0 +1,25 @@
+.subheading-box {
+	margin-top: 48px;
+	margin-bottom: 32px;
+}
+
+.heading-2-box {
+	margin-top: 88px;
+	margin-bottom: 22px;
+}
+
+.hatchet-imgs div:first-child {
+	padding-right: 15px;
+}
+.hatchet-imgs div:nth-child(2) {
+	padding-left: 15px;
+}
+
+.description-box {
+	margin: 23px;
+	text-align: center;
+}
+
+.next-project-top {
+	height: 253px;
+}
