@@ -1,0 +1,63 @@
+.main-title-empty-space {
+  height: 332px;
+  width: 100%;
+}
+
+.main-title-empty-bottom {
+	height: 127px;
+	width: 100%;
+}
+
+.subheading-box {
+	margin-top: 48px;
+	margin-bottom: 32px;
+}
+
+.bucha-icons {
+	width: 32px;
+	margin-right: 15px;
+}
+
+.mockup-box {
+	text-align: center;
+}
+
+.description-box {
+	margin-top: 23px;
+	margin-bottom: 23px;
+	font-style: italic; 
+}
+
+.problem-box div:nth-child(2) {
+	display: flex;
+
+}
+
+.heading-2-box {
+	margin-top: 82px;
+	margin-bottom: 24px;
+}
+
+.subheading-box-without-top {
+margin-bottom: 24px;
+}
+
+.sub-subheading-box {
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.future-steps-paragraph {
+
+}
+
+.project-footer {
+	height: 253px;
+}
+
+.isabelle {
+	padding-right: 15px;
+}
+.allie {
+	padding-left: 15px;
+}
