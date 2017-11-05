@@ -83,3 +83,36 @@
   line-height: 64px;
 }
 
+.quote {
+  color: #000000;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.56;
+  margin: auto;
+  opacity: 0.9;
+  text-align: left;
+  width: 80%;
+}
+
+.future-step-description {
+  height: 64px;
+  line-height: 64px;
+}
+
+.future-step-long-description {
+  margin: 0 auto;
+  width: 83.3333%;
+}
+
+.bottom-spacer {
+  height: 253px;
+}
+
+.tasks-findings-right .quote {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

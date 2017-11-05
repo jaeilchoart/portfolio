@@ -89,7 +89,6 @@ body {
   font-size: 18px;
   font-style: italic;
   opacity: 0.65;
-  height: 21px;
   text-align: center;
 }
 
@@ -271,6 +270,11 @@ footer {
   clear: both;
 }
 
+.spacer-9 {
+  height: 88px;
+  clear: both;
+}
+
 .spacer-8 {
   height: 96px;
   clear: both;
@@ -417,3 +421,10 @@ footer a:hover {
   border-bottom: solid 2px #2a1a87;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
+.left-align {
+  text-align: left;
+}
