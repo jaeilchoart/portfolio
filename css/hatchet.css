@@ -1,3 +1,12 @@
+.main-container-top-spacer {
+	height: 332px;
+}
+
+.main-container-bottom-spacer {
+	height: 127px;
+}
+
+
 .subheading-box {
 	margin-top: 48px;
 	margin-bottom: 32px;
@@ -18,6 +27,7 @@
 .description-box {
 	margin: 23px;
 	text-align: center;
+	font-style: italic;
 }
 
 .next-project-top {
