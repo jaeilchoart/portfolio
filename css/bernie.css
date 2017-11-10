@@ -35,4 +35,11 @@
 
 .next-footer {
   margin-bottom: 88px;
+  display: block;
+}
+
+.next-footer:hover {
+	color: #2a1a87;
+	text-decoration: none;
+	cursor: pointer;
 }
