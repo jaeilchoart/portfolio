@@ -116,3 +116,11 @@
   left: 0;
   right: 0;
 }
+
+.next-footer {
+  color: #000000;
+}
+.next-footer:hover {
+  color: #2a1a87;
+  text-decoration: none;
+}
