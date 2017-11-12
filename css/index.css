@@ -1,4 +1,34 @@
-.footer-content {
+.main-title-empty-space {
+  height: 332px;
+  width: 100%;
+}
+
+/*.heading-3 {
+  margin-bottom: 160px;
+}*/
+
+.main-title-container {
+  margin-bottom: 160px;
+}
+
+
+.left-column {
+  padding-right: 15px;
+}
+
+.right-column {
+  padding-left: 15px;
+}
+
+.rightside-nav span:first-child a {
+  opacity: 1;
+  font-weight: 500;
+  border-bottom: solid 2px #2a1a87;
+}
+
+
+
+/*.footer-content {
   border-top: 2px solid #d8d8d8;
   height: 142px;
   opacity: 0.8;
@@ -78,4 +108,4 @@ footer a {
 
 .nav-link {
   text-decoration: none;
-}
+}*/
