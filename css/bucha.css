@@ -61,3 +61,22 @@ margin-bottom: 24px;
 .allie {
 	padding-left: 15px;
 }
+.project-foot-description {
+	height: 258px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+.next-footer {
+	/*align-self: flex-start;*/
+	/*float: left;*/
+	vertical-align: top;
+}
+.next-footer a {
+	color: #000000;
+}
+.next-footer a:hover {
+	text-decoration: none;
+	color: #2a1a87;
+}

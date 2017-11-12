@@ -51,4 +51,11 @@
 .next-footer {
 	margin-bottom: 88px;
 }
+.next-footer a {
+	color: #000000;
+}
+.next-footer a:hover {
+	color: #2a1a87;
+	text-decoration: none;
+}
 
