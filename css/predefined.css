@@ -84,6 +84,14 @@ body {
   text-align: left;
 }
 
+.description {
+  color: #000000;
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.65;
+  text-align: center;
+}
+
 .list {
   color: #000000;
   font-size: 16px;
@@ -211,7 +219,7 @@ footer {
 }
 
 .box-2 {
-  height: 570px;
+  height: 100%;
   width: 100%;
 }
 
@@ -229,30 +237,51 @@ footer {
 }
 .spacer-1 {
   height: 16px;
+  clear: both;
 }
 
 .spacer-2 {
   height: 24px;
+  clear: both;
 }
 
 .spacer-3 {
   height: 32px;
+  clear: both;
 }
 
 .spacer-4 {
   height: 40px;
+  clear: both;
 }
 
 .spacer-5 {
   height: 48px;
+  clear: both;
 }
 
 .spacer-6 {
   height: 56px;
+  clear: both;
 }
 
 .spacer-7 {
   height: 80px;
+  clear: both;
+}
+
+.spacer-9 {
+  height: 88px;
+  clear: both;
+}
+
+.spacer-8 {
+  height: 96px;
+  clear: both;
+}
+
+.spacer-8 {
+  height: 96px;
 }
 
 
@@ -396,3 +425,10 @@ footer a:hover {
   border-bottom: solid 2px #2a1a87;
 }
 
+.bold-text {
+  font-weight: bold;
+}
+
+.left-align {
+  text-align: left;
+}

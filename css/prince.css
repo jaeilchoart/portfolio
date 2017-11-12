@@ -1,0 +1,54 @@
+.main-container-top-spacer {
+	height: 332px;
+}
+
+.main-container-bottom-spacer {
+	height: 127px;
+}
+
+
+.category-icon {
+	margin-right: 15px;
+}
+.web-icon{
+	margin-bottom: 50px;
+}
+
+.subheading-box {
+	margin-top: 48px;
+	margin-bottom: 32px;
+}
+
+.heading-2-box {
+	margin-top: 88px;
+	margin-bottom: 22px;
+}
+
+.awk-imgs div:first-child {
+	padding-right: 15px;
+}
+.awk-imgs div:nth-child(2) {
+	padding-left: 15px;
+}
+
+.description-box {
+	margin: 23px;
+	text-align: center;
+	font-style: italic;
+}
+
+.next-project-top {
+	height: 253px;
+}
+
+
+.next-footer {
+  margin-bottom: 88px;
+  display: block;
+}
+
+.next-footer:hover {
+	color: #2a1a87;
+	text-decoration: none;
+	cursor: pointer;
+}
