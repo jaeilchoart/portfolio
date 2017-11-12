@@ -147,3 +147,10 @@
 	/*float: left;*/
 	vertical-align: top;
 }
+.next-footer a {
+	color: #000000;
+}
+.next-footer a:hover {
+	text-decoration: none;
+	color: #2a1a87;
+}
