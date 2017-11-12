@@ -20,14 +20,11 @@
   padding-left: 15px;
 }
 
-
-
-
-
-
-
-
-
+.rightside-nav span:first-child a {
+  opacity: 1;
+  font-weight: 500;
+  border-bottom: solid 2px #2a1a87;
+}
 
 
 
