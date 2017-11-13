@@ -1,0 +1,68 @@
+
+.img-box {
+  cursor: pointer;
+}
+
+.carousel {
+  background: white;
+  display: none;
+  left: 0;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.carousel-close {
+  cursor: pointer;
+  position: absolute;
+  font-size: 2em;
+  height: 50px;
+  line-height: 50px;
+  right: 5%;
+  top: 5%;
+  text-align: center;
+  width: 50px;
+}
+
+.carousel-wrapper {
+  border: 1px solid black;
+  bottom: 0;
+  height: 70%;
+  left: 0;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50%;
+}
+
+.carousel-img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-left,
+.carousel-right {
+  bottom: 0;
+  color: lightgray;
+  cursor: pointer;
+  font-size: 10em;
+  height: 20%;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  width: 10%;
+}
+
+.carousel-left {
+  left: 2%;
+  text-align: right;
+}
+
+.carousel-right {
+  right: 2%;
+}
+
