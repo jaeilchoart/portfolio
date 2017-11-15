@@ -42,24 +42,30 @@
 
 /*LOWER ROW WITH ANIMATION GIFS*/
 .img-box {
-	height: 300px;
-	width: 300px;
+/*	height: 300px;
+	width: 300px;*/
 	overflow: hidden;
 	margin: 0;
+	border: 1px solid black;
 }
-/*.animation-left-column {
-	margin-right: 15px;
+.animation-left-column {
+	padding-right: 15px;
 }
 .animation-middle-column {
-	margin-left: 15px;
-	margin-right: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 .animation-right-column {
-	margin-left: 15px;
-}*/
+	padding-left: 15px;
+}
+
+
+
+
+
 
 /*LEFT GIF COLUMN*/
-.img-box:first-child {
+/*.img-box:first-child {
 	margin: 0;
 	background-image: url(./../assets/animation/tigerman-flame.gif);
 	background-size: 500px;
@@ -68,7 +74,7 @@
 }
 .animation-left-column div:nth-child(6) {
 	background-image: url(./../assets/animation/onboarding-hand-swipe.gif);
-	/*background-size: 500px;*/
+	background-size: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -78,11 +84,11 @@
 	background-size: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+}*/
 
 
 /*MIDDLE GIF COLUMN*/
-.animation-middle-column div:first-child {
+/*.animation-middle-column div:first-child {
 	background-image: url(./../assets/animation/tigerman-music.gif);
 	background-size: 500px;
 	background-position: center;
@@ -101,11 +107,11 @@
 	background-size: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+}*/
 
 
 /*RIGHT GIF COLUMN*/
-.animation-right-column div:first-child {
+/*.animation-right-column div:first-child {
 	background-image: url(./../assets/animation/tigerman-yea.gif);
 	background-size: 500px;
 	background-position: center;
@@ -124,7 +130,23 @@
 	background-size: 500px;
 	background-position: center;
 	background-repeat: no-repeat;
-}
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -143,14 +165,22 @@
 }
 
 .next-footer {
-	/*align-self: flex-start;*/
-	/*float: left;*/
 	vertical-align: top;
 }
-.next-footer a {
-	color: #000000;
-}
-.next-footer a:hover {
-	text-decoration: none;
+.next-footer:hover {
 	color: #2a1a87;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*newly added after ux designer's whining*/
+.heading-3-box {
+	margin-top: 32px;
 }
