@@ -25,7 +25,7 @@
     ];
     // use var syntax to make it used as a global variable within this scope
     var index;
-
+console.log(imgBox);
     imgBox.on('click', function (event) {
       // prevent scrolling when modal is opened
       $('body').css('overflow', 'hidden');

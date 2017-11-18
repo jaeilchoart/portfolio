@@ -19,8 +19,14 @@
 }
 
 .flushing-empty-space {
-  height: 260px;
+  height: 331px;
+  width: 100%; 
 }
+
+.category-top {
+  height: 89px;
+}
+
 
 .flushing-app-mock-container {
   text-align: center;
