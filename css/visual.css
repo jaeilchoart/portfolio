@@ -13,21 +13,6 @@
 
 .img-container {
 	position: relative;
-	/*overflow: hidden;*/
-}
-.left-column .img-container { 
-	margin-right: 15px;
-}
-.left-column > div:first-child {
-	margin-bottom: 40px;
-	/*margin-bottom: 18px;*/
-}
-
-.right-column .img-container { 
-	margin-left: 15px;
-}
-.right-column > div:first-child {
-	margin-bottom: 40px;
 }
 
 .popup { 
