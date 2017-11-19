@@ -1,0 +1,26 @@
+.overlay {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  background-color: #2a1a87;
+  opacity: 0.9;
+  overflow: hidden;
+  transition: .5s ease;
+  height: 0;
+  width: 100%;
+}
+
+.img-overlay:hover .overlay {
+  height: 205px;
+}
+
+.overlay > div {
+  margin: 0 auto;
+  width: 76%;
+}
+
+.overlay .heading-card {
+  margin-top: 58px;
+  margin-bottom: 13px;
+}
