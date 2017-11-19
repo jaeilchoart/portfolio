@@ -15,3 +15,12 @@
   height: 205px;
 }
 
+.overlay > div {
+  margin: 0 auto;
+  width: 76%;
+}
+
+.overlay .heading-card {
+  margin-top: 58px;
+  margin-bottom: 13px;
+}
