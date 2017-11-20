@@ -24,7 +24,7 @@
       '../assets/comics/sketch-page/two-warriors-battling_2017-11-11/two-warriors-battling@3x.jpg',
       '../assets/comics/sketch-page/mtp-cover_2017-11-11/mtp-cover@3x.jpg'
     ];
-    const length = imgArray.length;
+    const length = imgArray.length - 1;
     // use var syntax to make it used as a global variable within this scope
     var index;
 
@@ -54,7 +54,7 @@
       // set the img src to the previous image
       $('.carousel-img').attr('src', imgArray[index]);
     });
-    
+
     right.on('click', function (event) {
       index++; // increment
       if (index > length) { // keep carousel looping
@@ -64,5 +64,12 @@
       $('.carousel-img').attr('src', imgArray[index]);
     });
 
+    window.onkeyup = function (event) {
+      let key = event.keyCode ? event.keyCode : event.which;
+      if (key == 27) {
+        $('body').css('overflow', 'auto');
+        carousel.hide();
+      }
+    };
   });
 })();

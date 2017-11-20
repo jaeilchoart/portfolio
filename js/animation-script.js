@@ -24,6 +24,7 @@
       '../../assets/animation/confirmation.gif'
     ];
     // use var syntax to make it used as a global variable within this scope
+    const length = imgArray.length - 1;
     var index;
 
     imgBox.on('click', function (event) {
@@ -47,7 +48,7 @@
     left.on('click', function (event) {
       index--; // decrement 
       if (index < 0) { // keep carousel looping
-        index = 8;
+        index = length;
       }
       // set the img src to the previous image
       $('.carousel-img').attr('src', imgArray[index]);
@@ -55,12 +56,19 @@
 
     right.on('click', function (event) {
       index++; // increment
-      if (index > 8) { // keep carousel looping
+      if (index > length) { // keep carousel looping
         index = 0;
       }
       // set the img src to the next image
       $('.carousel-img').attr('src', imgArray[index]);
     });
 
+    window.onkeyup = function (event) {
+      let key = event.keyCode ? event.keyCode : event.which;
+      if (key == 27) {
+        $('body').css('overflow', 'auto');
+        carousel.hide();
+      }
+    };
   });
 })();
