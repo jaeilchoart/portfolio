@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,28 @@
   <title>Jaeil Cho Art</title>
 
   <link rel="stylesheet" href="./css/normalize.css">
-  
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="css/predefined.css">
   <link rel="stylesheet" href="css/index.css">
-  <script type="text/javascript" src="js/script.js"></script>
+  <link rel="stylesheet" href="css/overlay.css">
 </head>
+
 <body>
   <div class="container inside-element">
     <!-- navigation bar (fixed) -->
     <div class="navigation-header inside-element">
       <div class="navigation-container">
         <div class="col-sm-6 leftside-nav inside-element">
+
           <!-- <div class="logo-wrapper"> -->
             <a href="index.html"><img class="logo" src="assets/logo-with-name.svg" alt="Logo"></a>
           <!-- </div> -->
@@ -37,73 +43,83 @@
         </div>
       </div>
     </div>
-  
+
     <div class="main-title-container ">
-    <!-- description -->
+      <!-- description -->
       <div class="main-title-empty-space"></div>
       <div class="heading-1">UX/UI & animation</div>
       <div class="heading-3 heading-3-box">Hi there. I'm a designer and artist based in NYC.<br>Here you'll find my UX/UI designs as well as<br>animations. Thanks for stopping by!</div>
+
       <div class="description-bottom"></div>
     </div>
-    
+
     <!-- projects -->
-      
-      <div class="left-column inside-element col-md-6">
-        <a class="box-1" href="#">
-          <img class="box-1" src="./assets/uxui/urban-ft/urban-ft.png" srcset="./assets/uxui/urban-ft/urban-ft.png 1x, assets/uxui/urban-ft/urban-ft@2x.png 2x, assets/uxui/urban-ft/urban-ft@3x.png 3x" alt="urban-ft">
-          <span></span>
-        </a>
+    <div class="projects-container">
+      <div class="col-sm-6 inside-element left-column">
+        <div class="col-sm-12 inside-element img-overlay">
+          <a class="box-1" href="#">
+            <img class="box-1" src="./assets/uxui/urban-ft/urban-ft.png" srcset="./assets/uxui/urban-ft/urban-ft.png 1x, assets/uxui/urban-ft/urban-ft@2x.png 2x, assets/uxui/urban-ft/urban-ft@3x.png 3x"
+              alt="urban-ft">
+          </a>
+          <div class="overlay">
+            <div class="heading-card">Urban FT</div>
+            <div class="paragraph-card">Whitelabel fintech mobile app, from design to release. Coming soon!</div>
+          </div>
+        </div>
 
-        <a class="box-2" href="./uxui/bucha/bucha.html"><img class="box-2" src="./assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1.png" srcset="./assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1.png 1x, assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1@2x.png 2x, assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1.png@3x.png 3x" alt="betta-bucha"></a>
+        <div class="col-sm-12 inside-element img-overlay">
+          <a class="box-2" href="./uxui/bucha/bucha.html">
+            <img class="box-2" src="./assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1.png" srcset="./assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1.png 1x, assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1@2x.png 2x, assets/uxui/betta-bucha/betta-bucha-website-thumbnail-test-1.png@3x.png 3x"
+              alt="betta-bucha">
+          </a>
+          <div class="overlay">
+            <div class="heading-card">Betta Bucha</div>
+            <div class="paragraph-card">Mobile app design for kombucha locator</div>
+          </div>
+        </div>
       </div>
 
+      <div class="col-sm-6 inside-element right-column">
+        <div class="col-sm-12 inside-element img-overlay">
+          <a class="box-2" href="./uxui/animation/animation.html">
+            <img class="box-2" src="./assets/uxui/spaceman/spaceman.png" srcset="./assets/uxui/spaceman/spaceman.png 1x, assets/uxui/spaceman/spaceman@2x.png 2x, assets/uxui/spaceman/spaceman@3x.png 3x"
+              alt="spaceman">
+          </a>
+          <div class="overlay">
+            <div class="heading-card">Animation</div>
+            <div class="paragraph-card">Collection of micro-interactions, stickers and onboarding animations</div>
+          </div>
+        </div>
 
-      <div class="right-column inside-element col-md-6">
-        <a class="box-2" href="./uxui/animation/animation.html">
-          <img class="box-2" src="./assets/uxui/spaceman/spaceman.png" srcset="./assets/uxui/spaceman/spaceman.png 1x, assets/uxui/spaceman/spaceman@2x.png 2x, assets/uxui/spaceman/spaceman@3x.png 3x" alt="spaceman">
-          <span></span>
-        </a>
-
-        <a class="box-1" href="./uxui/flushing.html">
-          <img class="box-1" src="assets/uxui/flushing/flushing-the-app-thumbnail.png" srcset="assets/uxui/flushing/flushing-the-app-thumbnail.png 1x, assets/uxui/flushing/flushing-the-app-thumbnail@2x.png 2x, assets/uxui/flushing/flushing-the-app-thumbnail@3x.png 3x" alt="flushing-app">
-          <span></span>
-        </a>
+        <div class="col-sm-12 inside-element img-overlay">
+          <a class="box-1" href="./uxui/flushing.html">
+            <img class="box-1" src="assets/uxui/flushing/flushing-the-app-thumbnail.png" srcset="assets/uxui/flushing/flushing-the-app-thumbnail.png 1x, assets/uxui/flushing/flushing-the-app-thumbnail@2x.png 2x, assets/uxui/flushing/flushing-the-app-thumbnail@3x.png 3x"
+              alt="flushing-app">
+          </a>
+          <div class="overlay">
+            <div class="heading-card">Flushing the App</div>
+            <div class="paragraph-card">Mobile app concept for the elusive neighborhood of Flushing, Queens</div>
+          </div>
+        </div>
       </div>
-
-
-
-
-
-
-
-
-
-    <div class="column-left inside-element">
     </div>
-
-    <div class="column-right inside-element">
-    </div>
-
-
 
     <!-- footer -->
     <footer class="inside-element">
       <div class="footer-whitespace"></div>
       <div class="footer-content">
-
-
         <span class="email">
           <a href="jaeilchorart@gmail.com">jaeilchoart@gmail.com</a>
         </span>
         <span class="linkedin">
-            <a href="https://www.linkedin.com/in/jaeil-cho/">Linkedin</a>
+          <a href="https://www.linkedin.com/in/jaeil-cho/">Linkedin</a>
         </span>
       </div>
-
-          <span class="col-md-12 copyright-footer"> &copy; Jaeil Cho 2017</span>         
-
+      <span class="col-md-12 copyright-footer"> &copy; Jaeil Cho 2017</span>         
     </footer>
     
+
   </div>
 </body>
+
 </html>
