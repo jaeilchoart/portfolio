@@ -49,6 +49,10 @@ body {
   text-align: left;
 }
 
+.heading-3-box {
+  margin-top: 32px;
+}
+
 .subheading {
   color: #000000;
   font-size: 19px;
@@ -118,11 +122,6 @@ body {
 /*removing default bootstrap padding*/
 .inside-element {
   padding: 0;
-}
-
-footer {
-  height: 394px;
-  width: 100%;
 }
 
 .heading-card {
@@ -381,8 +380,8 @@ footer a:hover {
 }
 
 .logo {
-  height: 70px;
-  width: 70px;
+  height: 64px;
+  width: 152px;
 }
 
 .site-title-wrapper {

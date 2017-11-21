@@ -26,7 +26,7 @@
     // use var syntax to make it used as a global variable within this scope
     const length = imgArray.length - 1;
     var index;
-
+console.log(imgBox);
     imgBox.on('click', function (event) {
       // prevent scrolling when modal is opened
       $('body').css('overflow', 'hidden');

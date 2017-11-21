@@ -19,8 +19,14 @@
 }
 
 .flushing-empty-space {
-  height: 260px;
+  height: 331px;
+  width: 100%; 
 }
+
+.category-top {
+  height: 89px;
+}
+
 
 .flushing-app-mock-container {
   text-align: center;
@@ -78,12 +84,22 @@
 }
 
 .scenario-description {
-  text-align: left;
+  text-align: center;
   height: 64px;
   line-height: 64px;
 }
 
+.tasks-findings-right {
+    display: flex;
+    /*position: relative;*/
+    align-items: center;
+    justify-content: center;
+    align-content: flex-end;
+    height: 100%;
+}
+
 .quote {
+
   color: #000000;
   font-size: 32px;
   font-weight: bold;
@@ -92,7 +108,7 @@
   margin: auto;
   opacity: 0.9;
   text-align: left;
-  width: 80%;
+  /*width: 80%;*/
 }
 
 .future-step-description {
@@ -109,13 +125,13 @@
   height: 253px;
 }
 
-.tasks-findings-right .quote {
+/*.tasks-findings-right .quote {
   position: relative;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-}
+}*/
 
 .next-footer {
   color: #000000;
