@@ -89,3 +89,7 @@ ul > li {
 li {
 	margin-bottom: 32px;
 }
+
+.carousel-wrapper {
+	width: 65% !important;
+}
