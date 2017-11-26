@@ -80,3 +80,12 @@ margin-bottom: 24px;
 	text-decoration: none;
 	color: #2a1a87;
 }
+
+ul > li {
+	position: relative;
+	left: -1em;
+}
+
+li {
+	margin-bottom: 32px;
+}
