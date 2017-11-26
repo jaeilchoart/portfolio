@@ -28,7 +28,7 @@
 	font-style: italic; 
 }
 
-.problem-box div:nth-child(2) {
+.problem-box > div:nth-child(2) {
 	display: flex;
 
 }
@@ -45,10 +45,6 @@ margin-bottom: 24px;
 .sub-subheading-box {
 	margin-top: 50px;
 	margin-bottom: 30px;
-}
-
-.future-steps-paragraph {
-
 }
 
 .project-footer {
@@ -93,3 +89,4 @@ li {
 .carousel-wrapper {
 	width: 65% !important;
 }
+
