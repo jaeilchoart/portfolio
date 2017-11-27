@@ -140,3 +140,9 @@
   color: #2a1a87;
   text-decoration: none;
 }
+
+ul > li {
+  position: relative;
+  left: 1em;
+  margin-bottom: 32px;
+}
