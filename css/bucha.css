@@ -70,11 +70,9 @@ margin-bottom: 24px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-
 }
+
 .next-footer {
-	/*align-self: flex-start;*/
-	/*float: left;*/
 	vertical-align: top;
 }
 .next-footer a {
@@ -84,3 +82,13 @@ margin-bottom: 24px;
 	text-decoration: none;
 	color: #2a1a87;
 }
+
+
+
+
+/* :::::to fix broken footer::::: */
+
+
+
+
+
