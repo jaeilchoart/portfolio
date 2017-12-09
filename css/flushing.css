@@ -143,7 +143,7 @@
 
 ul > li {
   position: relative;
-  left: 1em;
+  left: -1em;
   margin-bottom: 32px;
 }
 
@@ -153,4 +153,14 @@ ul > li {
 .scenario-img,
 .mockup-img {
   width: 100%;
+}
+
+.key-findings {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contextual-research,
+.user-interviews {
+  margin-bottom: 24px;
 }

@@ -439,3 +439,8 @@ footer a:hover {
 .right-column {
   padding-left: 15px;
 }
+
+.custom-left {
+  padding-right: 30px;
+}
+
