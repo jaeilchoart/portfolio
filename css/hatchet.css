@@ -45,3 +45,9 @@
 	color: #2a1a87;
 	text-decoration: none;
 }
+
+.icon-text {
+	display: inline-block;
+	width: 74%;
+	vertical-align: middle;
+}
