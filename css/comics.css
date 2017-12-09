@@ -10,3 +10,8 @@
 .right-side-project {
   padding-left: 15px;
 }
+
+.new-title-container {
+  height: auto !important;
+  margin-bottom: 157px;
+}
