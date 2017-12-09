@@ -146,3 +146,11 @@ ul > li {
   left: 1em;
   margin-bottom: 32px;
 }
+
+.buccha-next,
+.user-testing-img,
+.future-steps-img,
+.scenario-img,
+.mockup-img {
+  width: 100%;
+}
