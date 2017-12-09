@@ -59,3 +59,9 @@
 	text-decoration: none;
 }
 
+.left {
+	padding-right: 15px;
+}
+.right {
+	padding-left: 15px;
+}
