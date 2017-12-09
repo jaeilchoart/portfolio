@@ -458,5 +458,7 @@ footer a:hover {
   letter-spacing: 0.8px;
   text-align: left;
   opacity: 0.85;
+  vertical-align: middle;
+  display: inline-block;
 }
 
