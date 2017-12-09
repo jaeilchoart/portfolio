@@ -53,7 +53,6 @@
 }
 .animation-middle-column {
 	padding-left: 15px;
-	padding-right: 15px;
 }
 .animation-right-column {
 	padding-left: 15px;
@@ -124,7 +123,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 }
-
+a
 .animation-right-column div:nth-child(11) {
 	background-image: url(./../assets/animation/confirmation.gif);
 	background-size: 500px;

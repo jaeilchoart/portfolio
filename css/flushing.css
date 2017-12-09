@@ -140,3 +140,27 @@
   color: #2a1a87;
   text-decoration: none;
 }
+
+ul > li {
+  position: relative;
+  left: -1em;
+  margin-bottom: 32px;
+}
+
+.buccha-next,
+.user-testing-img,
+.future-steps-img,
+.scenario-img,
+.mockup-img {
+  width: 100%;
+}
+
+.key-findings {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.contextual-research,
+.user-interviews {
+  margin-bottom: 24px;
+}

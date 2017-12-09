@@ -28,7 +28,7 @@
 	font-style: italic; 
 }
 
-.problem-box div:nth-child(2) {
+.problem-box > div:nth-child(2) {
 	display: flex;
 
 }
@@ -45,10 +45,6 @@ margin-bottom: 24px;
 .sub-subheading-box {
 	margin-top: 50px;
 	margin-bottom: 30px;
-}
-
-.future-steps-paragraph {
-
 }
 
 .project-footer {
@@ -79,4 +75,21 @@ margin-bottom: 24px;
 .next-footer a:hover {
 	text-decoration: none;
 	color: #2a1a87;
+}
+
+ul > li {
+	position: relative;
+	left: -1em;
+}
+
+li {
+	margin-bottom: 32px;
+}
+
+.carousel-wrapper {
+	width: 65% !important;
+}
+
+.user-testing-img-1 {
+	width: 100%;
 }

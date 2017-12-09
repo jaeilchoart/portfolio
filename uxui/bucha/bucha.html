@@ -9,6 +9,7 @@
 
   <link rel="stylesheet" href="./../../css/normalize.css">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
@@ -18,9 +19,9 @@
     crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="./../../css/predefined.css">
-  <!-- <link rel="stylesheet" href="./../../css/indzex.css"> -->
   <link rel="stylesheet" href="./../../css/bucha.css">
-  <script type="text/javascript" src="./../../js/script.js"></script>
+  <link rel="stylesheet" href="./../../css/carousel.css">
+  <script src="../../js/bucha-script.js"></script>
 </head>
 
 
@@ -76,7 +77,7 @@
 <!-- Client / Role / Platform -->
     <div class="inside-element col-md-offset-1 col-md-2">
       <div class="subheading subheading-box ">Client</div>
-      <img class="inside-element bucha-icons col-md-3" src="" alt="Betta Bucha">
+      <img class="inside-element bucha-icons col-md-3" src="../../assets/uxui/betta-bucha/betta-bucha-spec-doc/betta-bucha-spec-doc-master-001@3x.png" alt="Betta Bucha">
       <div class="sub-subheading">Betta Bucha</div>
     </div>
 
@@ -106,7 +107,7 @@
 <!-- THE PROBLEM -->
     <div class="problem-box inside-element col-md-12">
       <div class="heading-2 heading-2-box">The Problem</div>
-      <div class="paragraph col-md-9">In expanding to NYC, Betta Bucha seeks to target their main consumer base, the avid kombucha drinker who want to find fresh, locally-brewed kombucha nearby. The company also seeks to help them look for opportunities to connect with their neighborhood wellness and group exercise community.
+      <div class="paragraph inside-element col-sm-offset-1 col-sm-10">In expanding to NYC, Betta Bucha seeks to target their main consumer base, the avid kombucha drinker who want to find fresh, locally-brewed kombucha nearby. The company also seeks to help them look for opportunities to connect with their neighborhood wellness and group exercise community.
 
       The question became, how might we enable these drinkers to easily find kombucha that meets their standards, and create these opportunities? </div>
     </div>
@@ -124,8 +125,8 @@
         
         <div class="sub-subheading inside-element sub-subheading-box">Key findings</div>
         <ul>
-          <li>Kombucha was served by tap and also distributed as mass market bottles, with people preferring the bottles for convenience and price.</li>
-          <li>Observed the general demographic and atmosphere of people who frequent these establishments. It was an environment of health-conscious people with a certain degree of economic luxury, often frequenting yoga and group exercises.</li>
+          <li class="paragraph">Kombucha was served by tap and also distributed as mass market bottles, with people preferring the bottles for convenience and price.</li>
+          <li class="paragraph">Observed the general demographic and atmosphere of people who frequent these establishments. It was an environment of health-conscious people with a certain degree of economic luxury, often frequenting yoga and group exercises.</li>
         </ul>
       </div>
     </div>
@@ -157,10 +158,10 @@
         
         <div class="sub-subheading inside-element sub-subheading-box">Key findings</div>
         <ul>
-          <li>Drink kombucha for: probiotics, flavor/taste
+          <li class="paragraph">Drink kombucha for: probiotics, flavor/taste
 </li>
-          <li>Convenience and accessibility prioritized over local/ fresh brew even for avid drinkers, due to limited knowledge of benefits and availability of fresh brews nearby</li>
-          <li>Currently don't prioritize local/freshly-brewed. Source for opportunity</li>
+          <li class="paragraph">Convenience and accessibility prioritized over local/ fresh brew even for avid drinkers, due to limited knowledge of benefits and availability of fresh brews nearby</li>
+          <li class="paragraph">Currently don't prioritize local/freshly-brewed. Source for opportunity</li>
         </ul>
       </div>
     </div>
@@ -174,7 +175,7 @@
           Isabelle is the primary persona that we decided to target. <br>She is an extremely health-conscious indiividual who <br>regularly attends yoga and other group exercise classes.
         </div>
         <div class="col-md-12 spacer-4"></div>
-        <img class="isabelle-img col-md-12 inside-element" src="./../../assets/uxui/betta-bucha/persona-1/persona-1-intentional-isabelle.png" alt="isabelle">
+        <img data-box="0" class="img-box isabelle-img col-md-12 inside-element" src="./../../assets/uxui/betta-bucha/persona-1/persona-1-intentional-isabelle@3x.png" alt="isabelle">
       </div>
 
       <div class="col-md-6 allie inside-element">
@@ -183,7 +184,7 @@
           Allie is the secondary persona that we created. She <br>concentrates on the online social aspect, often sharing <br>pictures of her latest drinks on Instagram.
         </div> 
         <div class="col-md-12 spacer-4"></div>
-        <img class="allie-img col-md-12 inside-element" src="./../../assets/uxui/betta-bucha/persona-2/adventurous-allie.png" alt="">  
+        <img data-box="1" class="img-box allie-img col-md-12 inside-element" src="./../../assets/uxui/betta-bucha/persona-2/adventurous-allie@3x.png" alt="">  
       </div>   
 
 
@@ -192,17 +193,19 @@
 <!-- USER TESTING -->
     <div class="problem-box inside-element col-md-12">
       <div class="heading-2 heading-2-box">USER TESTING</div>
-      <img src="./../../assets/uxui/betta-bucha/user-testing/bitmap.png" alt="">
+      <div class="col-sm-12 inside-element">
+        <img src="./../../assets/uxui/betta-bucha/user-testing/bitmap.png" alt="" class="user-testing-img-1">
+      </div>
       <div class=" col-md-6 inside-element">
         <div class="subheading subheading-box col-md-12 inside-element">Existing app testing</div>
-        <div class="paragraph inside-element col-md-12">To get a basic idea of how the current app was viewed by users, we selected 4 users to test the existing V1. They were instructed to walk through the app and tell us what they saw, what they thought the app did, and how they would use it.</div>
+        <div class="paragraph inside-element col-md-11">To get a basic idea of how the current app was viewed by users, we selected 4 users to test the existing V1. They were instructed to walk through the app and tell us what they saw, what they thought the app did, and how they would use it.</div>
       </div>
       <div class="col-md-6 inside-element">
         <div class="sub-subheading inside-element sub-subheading-box">Key findings</div>        
         <ul>
-          <li>They needed more info about this company called Betta Bucha and its affiliates</li>
-          <li>4/4 testers wanted to see an Onboarding experience or a better landing page</li>
-          <li>UI issues: Lightbulb icon was not intuitive for "Recipes."</li>
+          <li class="paragraph">They needed more info about this company called Betta Bucha and its affiliates</li>
+          <li class="paragraph">4/4 testers wanted to see an Onboarding experience or a better landing page</li>
+          <li class="paragraph">UI issues: Lightbulb icon was not intuitive for "Recipes."</li>
         </ul> 
       </div>
 
@@ -220,6 +223,7 @@
 
 
 <!-- venue list 2-->
+        <div class="spacer-3"></div>
         <div class="subheading subheading-box  inside-element col-md-12">Venue list</div>
         <div class="col-md-12 inside-element">
           <div class="inside-element col-md-4">
@@ -236,6 +240,7 @@
 
 <div class="inside-element spacer-7 col-md-12">
 <!-- Events -->
+<div class="spacer-3"></div>
         <div class="subheading subheading-box  inside-element col-md-12">Events</div>
         <div class="col-md-12 inside-element">
           <div class="inside-element col-md-4">
@@ -249,6 +254,7 @@
 
 <div class="inside-element spacer-7 col-md-12">
         <!-- Venue page -->
+        <div class="spacer-3"></div>
         <div class="subheading subheading-box  inside-element col-md-12">Venue Pages</div>
         <div class="col-md-12 inside-element">
           <div class="inside-element col-md-4">
@@ -260,7 +266,7 @@
           <img class="inside-element col-md-7 col-md-offset-1" src="./../../assets/uxui/betta-bucha/venue-page/current-proposed-4.png" alt="">
         </div>
     <div class="heading-2-box heading-2 inside-element">Future steps</div>
-    <div class="future-steps-paragraph inside-element paragraph col-md-9">The team was able to deliver the new design changes to Betta Bucha on a timely deadline. The company owner was pleased with the proposed changes, and is in the process of developing the app based on these recommendations. </div>
+    <div class="future-steps-paragraph inside-element paragraph col-sm-10 col-sm-offset-1">The team was able to deliver the new design changes to Betta Bucha on a timely deadline. The company owner was pleased with the proposed changes, and is in the process of developing the app based on these recommendations. </div>
 
     
     <div class="project-footer inside-element col-md-12"></div>
@@ -286,7 +292,9 @@
       </div>
     </div>
 
-    <img class="inside-element col-md-6" src="./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail.png" srcset="./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail.png 1x, ./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail@2x.png 2x, ./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail@3x.png 3x, " alt="flushing-the-app-thumbnail">
+    <a href="../flushing.html">
+      <img class="inside-element col-md-6" src="./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail.png" srcset="./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail.png 1x, ./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail@2x.png 2x, ./../../assets/animation/flushing-thumbnail/flushing-the-app-thumbnail@3x.png 3x, " alt="flushing-the-app-thumbnail">
+    </a>
   </div>
 
 
@@ -316,5 +324,22 @@
     </footer>
     
 </div>
+
+<div class="carousel">
+  <div class="carousel-close">x</div>
+  
+  <div class="carousel-left">
+    <i class="fa fa-angle-left" aria-hidden="true"></i>
+  </div>
+  
+  <div class="carousel-wrapper">
+    <img class="carousel-img">
+  </div>
+
+  <div class="carousel-right">
+    <i class="fa fa-angle-right" aria-hidden="true"></i>
+  </div>
+</div>
+
 </body>
 </html>

@@ -389,7 +389,7 @@ footer a:hover {
 }
 
 .main-title-container {
-  height: 574px;
+  height: 574px;img-width
   width: 100%;
   position: relative;
 }
@@ -439,3 +439,26 @@ footer a:hover {
 .right-column {
   padding-left: 15px;
 }
+
+.custom-left {
+  padding-right: 30px;
+}
+
+.img-width {
+  width: 100%;
+}
+
+.icon-right {
+  margin-right: 15px;
+}
+
+.icon-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  opacity: 0.85;
+  vertical-align: middle;
+  display: inline-block;
+}
+
