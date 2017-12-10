@@ -360,8 +360,9 @@ footer a:hover {
 }
 .navigation-container {
   background: #ffffff;
-  height: 138px;
+  height: 105px;
   width: 100%;
+  opacity: 0.75;
 }
 
 .leftside-nav {
