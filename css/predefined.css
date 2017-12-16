@@ -53,22 +53,6 @@ body {
   margin-top: 32px;
 }
 
-.subheading {
-  color: #000000;
-  font-size: 19px;
-  font-weight: bold;
-  opacity: 0.85;
-  text-align: left;
-}
-
-.sub-subheading {
-  color: #000000;
-  font-size: 17px;
-  font-weight: 500;
-  opacity: 0.85;
-  text-align: left;
-}
-
 .navigation-text {
   color: #000000;
   float: right;
@@ -94,15 +78,6 @@ body {
   font-style: italic;
   opacity: 0.65;
   text-align: center;
-}
-
-.list {
-  color: #000000;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.8px;
-  opacity: 0.85;
-  text-align: left;
 }
 
 .site-title {
@@ -473,3 +448,67 @@ footer a:hover {
   object-fit: cover;  
 }
 
+.quote {
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.56;
+  margin: auto;
+  opacity: 0.9;
+  text-align: left;
+}
+
+@media screen and (max-width: 599px) {
+  .heading-card {
+    font-size: 42px;
+    line-height: 0.95;
+  }
+  .paragraph-card {
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 1px;
+  }
+  .quote {
+    opacity: 0.85;
+    font-size: 32px;
+    line-height: 1.56;
+  }
+ .site-title {
+    font-size: 26px;
+    opacity: 0.85;
+  }
+  .heading-1 {
+      opacity: 0.85;
+      font-size: 26px;
+  }
+  .heading-2 {
+      opacity: 0.85;
+      font-size: 17px;
+      line-height: 1.47;
+      letter-spacing: 0.8px;
+  }
+  .heading-3 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .subheading {
+    font-size: 16px;
+  }
+  .sub-subheading {
+    opacity: 0.75;
+    font-size: 15px;
+  }
+  .paragraph {
+    opacity: 0.85;
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 0.8px;
+  }
+  .list {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .description {
+    font-size: 14px;
+  }
+}

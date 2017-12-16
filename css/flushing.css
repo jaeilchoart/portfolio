@@ -98,19 +98,6 @@
     height: 100%;
 }
 
-.quote {
-
-  color: #000000;
-  font-size: 32px;
-  font-weight: bold;
-  font-style: italic;
-  line-height: 1.56;
-  margin: auto;
-  opacity: 0.9;
-  text-align: left;
-  /*width: 80%;*/
-}
-
 .future-step-description {
   height: 64px;
   line-height: 64px;
