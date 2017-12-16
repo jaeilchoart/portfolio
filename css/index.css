@@ -12,3 +12,14 @@
   font-weight: 500;
   border-bottom: solid 2px #2a1a87;
 }
+
+@media (max-width: 599px) {
+  .main-title-empty-space {
+    height: 76px;
+  }
+  .main-title-container {
+    margin-bottom: 64px;
+    height: auto;
+  }
+  
+}
