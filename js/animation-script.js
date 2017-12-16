@@ -16,7 +16,7 @@
       '../../assets/animation/tigerman-flame.gif',
       '../../assets/animation/tigerman-music.gif',
       '../../assets/animation/tigerman-yea.gif',
-      '../../assets/animation/onboarding-hand-swipe.gif',
+      '../../assets/animation/onboarding-tutorial.gif',
       '../../assets/animation/spaceman-floating-empty.gif',
       '../../assets/animation/spaceman-bill-pay.gif',
       '../../assets/animation/loading1.gif',
