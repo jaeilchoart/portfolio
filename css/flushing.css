@@ -156,3 +156,26 @@ ul > li {
   margin-bottom: 32px;
 }
 
+@media (max-width: 599px) {
+  .flushing-empty-space {
+    height: 0;
+  }
+  .main-title-container {
+    height: auto;
+  }
+  .category-top {
+    height: 56px;
+  }
+  .subheading-box {
+    margin-bottom: 21px;
+  }
+  .problem-box {
+    height: 104px;
+    line-height: 104px;
+  }
+  .problem-description {
+    height: 100%;
+    width: 100%;
+  }
+  
+}

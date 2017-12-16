@@ -458,10 +458,24 @@ footer a:hover {
   text-align: left;
 }
 
+.not-mobile {
+  display: block;
+}
+
+.mobile-only {
+  display: hide;
+}
+
 @media (max-width: 599px) {
   .container {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .not-mobile {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
   }
   .heading-card {
     font-size: 24px;
