@@ -458,7 +458,7 @@ footer a:hover {
   text-align: left;
 }
 
-@media screen and (max-width: 599px) {
+@media (max-width: @screen-xs-max) {
   .heading-card {
     font-size: 42px;
     line-height: 0.95;
