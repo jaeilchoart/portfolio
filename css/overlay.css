@@ -26,3 +26,8 @@
   font-weight: bold;
 }
 
+@media (max-width: 599px) {
+  .overlay {
+    height: 205px;
+  }
+}
