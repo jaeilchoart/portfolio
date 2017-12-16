@@ -279,11 +279,6 @@ body {
   clear: both;
 }
 
-.spacer-8 {
-  height: 96px;
-}
-
-
 
 /* FOOTER */
 footer {
@@ -465,5 +460,16 @@ footer a:hover {
   opacity: 0.85;
   vertical-align: middle;
   display: inline-block;
+}
+
+.next-footer {
+  display: block;
+  color: #000000;
+  margin-bottom: 88px;
+}
+
+.next-img-footer {
+  height: 320px;
+  object-fit: cover;  
 }
 
