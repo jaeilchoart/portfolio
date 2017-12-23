@@ -91,7 +91,6 @@
 
 .tasks-findings-right {
     display: flex;
-    /*position: relative;*/
     align-items: center;
     justify-content: center;
     align-content: flex-end;
@@ -111,14 +110,6 @@
 .bottom-spacer {
   height: 253px;
 }
-
-/*.tasks-findings-right .quote {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}*/
 
 .next-footer {
   color: #000000;
@@ -142,20 +133,6 @@ ul > li {
   width: 100%;
 }
 
-.key-findings {
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
-.contextual-research,
-.user-interviews {
-  margin-bottom: 24px;
-}
-
-.subheading-box {
-  margin-bottom: 32px;
-}
-
 @media (max-width: 599px) {
   .flushing-empty-space {
     height: 0;
@@ -164,7 +141,7 @@ ul > li {
     height: auto;
   }
   .category-top {
-    height: 56px;
+    height: 32px;
   }
   .subheading-box {
     margin-bottom: 21px;
@@ -177,5 +154,26 @@ ul > li {
     height: 100%;
     width: 100%;
   }
-  
+  .subheading-box-no-top {
+    margin: 32px 0 21px 0;
+  }
+  .memory-description, 
+  .place-description {
+    width: 100%;
+  }
+  .tasks-findings-right {
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+  .quote {
+    width: 75%;
+    margin: 32px auto;
+  }
+  .future-step-long-description {
+    padding: 0;
+    width: 100%;
+  }
+  #subheading-box-mobile {
+    margin-top: 0;
+  }
 }
