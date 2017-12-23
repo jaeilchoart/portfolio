@@ -93,3 +93,16 @@ li {
 .user-testing-img-1 {
 	height: 100%;
 }
+
+.icon-bottom {
+	margin-bottom: 15px;
+}
+
+@media (max-width: 599px) {
+	.main-title-empty-bottom {
+		height: auto;
+	}
+	.icon-bottom {
+		margin-bottom: 0;
+	}
+}
