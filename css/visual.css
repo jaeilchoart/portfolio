@@ -3,7 +3,7 @@
 }
 
 .visual-heading {
-	top: 333px;
+	margin-top: 333px;
 }
 
 .visual-img { 
@@ -34,10 +34,19 @@
 	color: #ffffff;
 }
 
-.main-title-container {
-	height: 709px;
-}
-
 .img-container span {
 	display: none;
+}
+
+.visual-title-container {
+	margin-bottom: 135px;
+}
+
+@media (max-width: 599px) {
+	.visual-heading {
+		margin-top: auto;
+	}
+	.visual-title-container {
+		margin-bottom: 64px;
+	}
 }
