@@ -398,6 +398,10 @@ footer a:hover {
   margin-bottom: 8px;
 }
 
+.main-title-whitespace {
+  height: 331px;
+}
+
 @media (max-width: 599px) {
   .container {
     padding-left: 16px;
