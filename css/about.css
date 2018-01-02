@@ -1,26 +1,21 @@
-.main-title-container {
-	height: 601px;
+.about-heading {
+	margin-top: 333px;
 }
 
 .rightside-nav span:nth-child(4) a {
 	opacity: 1;
 }
 
-
-.heading-1 {
-	/*margin-top: 195px;*/
-	margin-top: 332px;
-}
-
-.heading-2-box{
-	margin-top: 88px;
-	margin-bottom: 24px;
-}
-
 .ux-process-box {
-	margin-bottom: 
+	/* margin-bottom:  */
 }
 
 .rightside-nav span:nth-child(4) a {
 	border-bottom: solid 2px #2a1a87;
+}
+
+@media (max-width: 599px) {
+	.about-heading {
+		margin-top: 0;
+	}
 }

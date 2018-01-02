@@ -1,6 +1,6 @@
 .main-title-empty-space {
 	margin-top: 332px;
-  	width: 100%;
+  width: 100%;
 }
 
 .left-side-project {
@@ -14,4 +14,13 @@
 .new-title-container {
   height: auto !important;
   margin-bottom: 157px;
+}
+
+@media (max-width: 599px) {
+  .main-title-empty-space {
+    margin-top: 0;
+  }
+  .new-title-container {
+    margin-bottom: 64px;
+  }
 }
