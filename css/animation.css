@@ -170,4 +170,37 @@ a
 	color: #2a1a87;
 	text-decoration: none;
 }
+.row-one {
+	margin-bottom: 40px;
+}
 
+.animation-title {
+	opacity: 0.85;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.78;
+  letter-spacing: 0.9px;
+  text-align: left;
+  color: #000000;
+}
+
+@media (max-width: 599px) {
+	.animation-right-column {
+		padding-left: 0;
+	}
+	.animation-middle-column {
+    padding-left: 0;
+	}
+	.animation-left-column {
+		padding-right: 0;
+	}
+	.middle-column {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.right-column {
+		margin-left: 0;
+	}
+}
