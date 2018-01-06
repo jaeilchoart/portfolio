@@ -193,6 +193,11 @@ body {
   clear: both;
 }
 
+.spacer-9 {
+  height: 72px;
+  clear: both;
+}
+
 footer {
   display: inline-block;
   height: 394px;
