@@ -109,7 +109,6 @@ body {
 }
 
 .description-box {
-  height: 64px;
   line-height: 64px;
 }
 
@@ -547,7 +546,6 @@ footer a:hover {
     height: auto;
   }
   .description-box {
-    height: 44px;
     line-height: 44px;
   }
 }
