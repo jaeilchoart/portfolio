@@ -108,6 +108,11 @@ body {
   text-align: center;
 }
 
+.description-box {
+  height: 64px;
+  line-height: 64px;
+}
+
 .list {
   color: #000000;
   font-size: 16px;
@@ -540,5 +545,9 @@ footer a:hover {
   }
   .main-title-container {
     height: auto;
+  }
+  .description-box {
+    height: 44px;
+    line-height: 44px;
   }
 }
