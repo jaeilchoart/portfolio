@@ -1,0 +1,24 @@
+.urban-icon {
+  width: 136px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.api-doc ul {
+  left: -1em;
+  position: relative;
+}
+
+.api-doc ul li:first-child {
+  margin-bottom: 32px;
+}
+
+.api-doc div[class*="col-md-6"] {
+  padding-right: 24px;
+}
+
+@media (max-width: 992px) {
+  .mobile-margin-bottom {
+    margin-bottom: 32px;
+  }
+}
