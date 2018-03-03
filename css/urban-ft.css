@@ -17,6 +17,10 @@
   padding-right: 24px;
 }
 
+#uxui-icon {
+  margin-right: 24px;
+}
+
 @media (max-width: 992px) {
   .mobile-margin-bottom {
     margin-bottom: 32px;
