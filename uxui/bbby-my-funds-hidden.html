@@ -18,9 +18,253 @@
     crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="./../css/predefined.css">
-  <link rel="stylesheet" href="./../css/urban-ft.css">
 </head>
 <body>
+  <div class="container inside-element">
+    <!-- navigation bar (fixed) -->
+    <div class="navigation-header inside-element">
+      <div class="navigation-container">
+        <div class="col-xs-12 col-sm-6 leftside-nav inside-element">
+          <div class="logo-wrapper">
+            <a href="./../index.html">
+              <img class="logo" src="./../assets/logo-with-name.png" alt="Logo">
+            </a>
+          </div>
+        </div>
 
+        <div class="col-xs-12 col-sm-6 rightside-nav inside-element">
+          <span class="inside-element col-xs-3 col-sm-2 col-offset-sm-4 navigation-text nav-link active-page">
+            <a href="./../index.html">UX/UI</a>
+          </span>
+          <span class="inside-element col-xs-3 col-sm-2 navigation-text nav-link">
+            <a href="./../visual/visual.html">Visual</a>
+          </span>
+          <span class="inside-element col-xs-3 col-sm-2 navigation-text nav-link">
+            <a href="./../comics/comics.html">Comics</a>
+          </span>
+          <span class="inside-element col-xs-3 col-sm-2 navigation-text nav-link">
+            <a href="./../about/about.html">About</a>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-title-container">
+      <!-- description -->
+      <div class="not-mobile main-title-whitespace"></div>
+      <div class="heading-1">
+        Bed Bath & Beyong -<br/>
+        My Funds
+      </div>
+      <div class="heading-3 heading-3-box">Re-design of the Stored Value (SV) experience</div>
+    </div>
+
+    <!-- my funds description -->
+    <div class="spacer-9"></div>
+
+    <div class="inside-element col-sm-5">
+      <div class="inside-element subheading subheading-box ">Summary</div>
+      <div class="inside-element paragraph">
+        As part of a Q3 2019 project, business wanted to re-design the Stored Value (SV) experience offered from Bed Bath, externally called “My Funds.” As the head designer of the My Account Workstream, my task was to take the complicated logic behind the scenes and condense it into a user-friendly experience.
+      </div>
+    </div>
+
+    <div class="mobile-only spacer-3"></div>
+
+
+    <!-- Company / Role / Platform -->
+    <div class="inside-element col-sm-offset-1 col-sm-2">
+      <div class="subheading subheading-box">Company</div>
+      <img class="icon icon-right urban-icon" src="./../assets/uxui/account-nav/bby-logo.png" alt="BBY">
+    </div>
+
+    <div class="middle-column inside-element col-sm-2">
+      <div class="mobile-only spacer-3"></div>
+      <div class="subheading subheading-box">Role</div>
+      <div class="col-xs-12 inside-element">
+        <img id="uxui-icon" class="icon icon-right col-xs-6 inside-element" src="./../assets/flushing/designer/designer@3x.png" alt="designer">
+        <div class="icon-text col-xs-6 inside-element">UX/UI Designer<br class="not-mobile"> of My Account Workstream</div>
+      </div>
+      <div class="spacer-4"></div>
+    </div>
+
+    <div class="inside-element col-sm-2">
+      <div class="mobile-only spacer-3"></div>
+      <div class="subheading subheading-box">Platform</div>
+      <div class="inside-element col-sm-12">
+        <img class="icon icon-right" src="./../assets/flushing/mobile/mobile@3x.png" alt="mobile">
+        <div class="icon-text">Web, <br>Responsiveness</div>
+      </div>
+    </div>
+
+    <div class="not-mobile spacer-8 clearfix"></div>
+    <div class="mobile-only spacer-6 clearfix"></div>
+
+    <!-- Final Design Screen -->
+    <div class="img-container col-xs-12 inside-element">
+      <img src="../assets/uxui/my-funds/my-funds-img-1.png" alt="Final Designs" class="img-width">
+      <div class="description description-box col-xs-12 inside-element">Final design screen (above)</div>
+    </div>
+
+    <div class="heading-2-box col-xs-12 inside-element">
+      <h2 class="heading-2">Problem</h2>
+    </div>
+
+    <div class="col-xs-10 col-xs-offset-1 inside-element">
+      <div class="paragraph">
+        The Bed Bath Stored Value (SV) program called My Funds work in a complicated logic for general customers to understand.
+        <br>
+        <br>
+        <span class="bold-text">Pernament Funds</span> - Value that do not expire. Examples include refunds from returns and value transferred from physical gift cards.
+        <br>
+        <br>
+        <span class="bold-text">Expiring Funds</span> - Value that will last for a limited amount of time. They can be earned during various promotions that are run online and in store. Furthermore, each Expiring Fund earned can have different expiration dates, and for a customer to use them together, their cart must be equal or higher to the funds combined.
+        <br>
+        <br>
+        For ex, say customer have 3 Expiring Funds; $10 expiring in Feb 1, $10 expiring in Feb 2nd, and $10 expiring in Feb 3rd. If the customer wishes to use all $30 combined, their cart must be equal or higher to $30. Or, if he/she wishes to use parts of the Funds before they expire (for ex. the $10 that expires in Feb 1) the cart must be equal or higher to $10.
+        <br>
+        <br>
+        The issue thus became, how to condense this complicated logic in a user-friendly way.
+      </div>
+    </div>
+
+    <div class="heading-2-box col-xs-12 inside-element">
+      <h2 class="heading-2">Multiple Scenarios</h2>
+    </div>
+
+    <div class="col-xs-10 col-xs-offset-1 inside-element">
+      <div class="paragraph">
+        There were key scenarios that we had to account for, with variations of some key factors. Examples included,
+        <br>
+        <br>
+        - User applied Expiring Funds
+        <br>
+        - User applied Permanent Funds
+        <br>
+        - User applied both
+        <br>
+        - User earned Funds under a Promotion for next purchase
+        <br>
+        - Business wants to advertise Promotion to give user incentive to spend more
+        <br>
+        - A combination of all factors
+      </div>
+    </div>
+
+    <div class="heading-2-box col-xs-12 inside-element">
+      <h2 class="heading-2">User Testing</h2>
+    </div>
+
+    <!-- Design in PROD -->
+    <div class="col-xs-12 col-sm-12 inside-element">
+      <div class="subheading subheading-box">Testing the flow that's in production</div>
+      <div class="col-xs-12 inside-element">
+        <img src="../assets/uxui/my-funds/my-funds-img-2.png" alt="Desgin in PROD" class="img-width">
+      </div>
+      <div class="description description-box col-xs-12 inside-element">Design that's in PROD (above)</div>
+      <div class="col-xs-10 col-xs-offset-1 inside-element">
+        <div class="paragraph">
+          We tested the current flow that’s in production to find out what possible problems it could possess.
+          <br>
+          <br>
+          - Users understood that Funds were being applied, but that’s all they knew.
+          <br>
+          - Users did not clearly make the connection between the “Campaign message” and the Funds applied.
+          <br>
+          - 3/5 users felt confused about where the “$34.00 My Funds Applied” came from.
+        </div>
+      </div>
+    </div>
+
+    <!-- Testing re-design -->
+    <div class="col-xs-12 inside-element">
+      <div class="subheading subheading-box">Testing a Re-design</div>
+      <div class="col-xs-12 inside-element">
+        <img src="../assets/uxui/my-funds/my-funds-img-3.png" alt="One of Initial Designs" class="img-width">
+        <div class="description description-box col-xs-12 inside-element">One of initial designs (above)</div>
+      </div>
+      <div class="col-xs-10 col-xs-offset-1 inside-element">
+        <div class="paragraph">
+          Feedback from users were mixed. About 2/5 users felt that the module used was not clear enough that it’s clickable. They also took extra time understanding all of the sections involved.
+          <br>
+          <br>
+          There were also feedback from business. The Cart & Checkout team was worried that the module could push the page down too much, which could impact sales.
+        </div>
+      </div>
+    </div>
+
+    <!-- Further iterations -->
+    <div class="col-xs-12 inside-element">
+      <div class="subheading subheading-box">Further Iterations</div>
+      <div class="col-xs-12 inside-element">
+        <img src="../assets/uxui/my-funds/my-funds-img-4.png" alt="Final design (above)" class="img-width">
+        <div class="description description-box col-xs-12 inside-element">Final design (above)</div>
+        <div class="col-xs-10 col-xs-offset-1 inside-element">
+          <div class="paragraph">
+            After much iteration, we landed close to this design. Here, instead of expanding directly on the cart page, I added a link that would open up the My Funds functionalities as a drawer - mirroring the existing experience of applying coupons under “Apply an Offer Code”.
+            <br>
+            <br>
+            I also added in a quick “How it Works” section for users who are curious about the breakdown of their Expiring Funds, as well as separate drawers for Promotions and FAQ.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- UX Writing for Promotional Messaging -->
+    <div class="col-xs-12 inside-element">
+      <div class="subheading subheading-box">UX Writing for Promotional Messaging</div>
+      <div class="col-xs-12 inside-element">
+        <img src="../assets/uxui/my-funds/my-funds-img-5.png" alt="Examples of copy (above)" class="img-width">
+        <div class="description description-box col-xs-12 inside-element">Examples of copy (above)</div>
+        <div class="col-xs-10 col-xs-offset-1 inside-element">
+          <div class="paragraph">
+            We began to account for all the different scenarios that would come with the factors of Expiring and Permanent Funds, as well as with promotions, and began writing the messaging that would be applied accordingly. This was done as a balancing act between user needs and business promotion. For example, if user had funds and they were automatically applied to the cart, we would highlight that and add in an “upsell” message (you can spend $1 more to apply another $X). If user had funds and Bed Bath was also running a promotion, we would highlight the promotion first as a business need.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Future State & Development in Lower Environments -->
+    <div class="heading-2-box col-xs-12 inside-element">
+      <h2 class="heading-2 subheading-box-no-top">Future State & Development in Lower Environments</h2>
+      <div class="col-xs-10 col-xs-offset-1 inside-element">
+        <div class="paragraph">
+          Design has been handed off to DEV and are being worked in lower environments. The streamlined re-design is projected to generate more Stored Value usage for customers. Currently, My Funds has generated X per season, and is projected to be one of Bed Bath’s most valuable ecommerce initiatives.
+        </div>
+      </div>
+    </div>
+
+
+    <!-- NEXT PROJECT FOOTER  -->
+    <div class="next-project-top col-xs-12 col-sm-12 inside-element"></div>
+    <div class="next-project-footer col-xs-12 col-sm-12 inside-element">
+      <div class="inside-element col-sm-6">
+        <a href="./bbby-account-nav.html" class="sub-subheading next-footer">Next</a>
+        <div class="heading-2 heading-2-next-project">BBBY - Account Navigation</div>
+        <div class="paragraph paragraph-next-project">Information hierarchy and design for account navigation</div>
+      </div>
+      <a href="./bbby-account-nav.html">
+        <img class="inside-element col-sm-6 next-img-footer full-width-mobile" src="../assets/uxui/account-nav/account-nav-thumbnail.png"
+          alt="Animations">
+      </a>
+    </div>
+
+    <!-- footer -->
+    <footer class="inside-element">
+      <div class="footer-whitespace"></div>
+      <div class="footer-content">
+        <span class="email">
+          <a href="jaeilchorart@gmail.com">jaeilchoart@gmail.com</a>
+        </span>
+        <span class="linkedin">
+          <a href="https://www.linkedin.com/in/jaeil-cho/">Linkedin</a>
+        </span>
+      </div>
+      <span class="col-sm-12 copyright-footer"> &copy; Jaeil Cho 2017</span>
+    </footer>
+
+
+
+  </div>
 </body>
 </html>
