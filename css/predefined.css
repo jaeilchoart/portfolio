@@ -370,6 +370,11 @@ footer a:hover {
   display: inline-block;
 }
 
+.icon-bbby {
+  width: 123px;
+  height: 38px;
+}
+
 .next-footer {
   display: block;
   color: #000000;
